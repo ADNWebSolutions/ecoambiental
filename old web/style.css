@@ -1,18 +1,21 @@
 @font-face {
     font-family: ashFont;
-    src: url('./img/DCC-Ash.otf'); 
-}    
-@font-face{
+    src: url('./img/DCC-Ash.otf');
+}
+
+@font-face {
     font-family: catchye;
-    src: url('./img/Catchye.otf');     
+    src: url('./img/Catchye.otf');
 }
-@font-face{
+
+@font-face {
     font-family: cursiveL;
-    src: url('./img/LearningCurve.ttf');     
+    src: url('./img/LearningCurve.ttf');
 }
-@font-face{
+
+@font-face {
     font-family: imprent;
-    src: url('./img/LettersForLearners');     
+    src: url('./img/LettersForLearners');
 }
 
 * {
@@ -22,10 +25,9 @@
     font-family: catchye;
     font-size: 0.95rem;
     font-weight: bold !important;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     text-align: justify;
     text-justify: inter-word;
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
 
 body {
@@ -42,17 +44,20 @@ body {
 }
 
 /* FUENTESS */
-.ash{
+.ash {
     font-family: ashFont;
 }
-.titulo-size3{
-    font-size:3rem;
+
+.titulo-size3 {
+    font-size: 3rem;
 }
-.titulo-size2{
-    font-size:2rem;
+
+.titulo-size2 {
+    font-size: 2rem;
 }
-.titulo-size15{
-    font-size:1.5rem;
+
+.titulo-size15 {
+    font-size: 1.5rem;
 }
 
 
@@ -89,6 +94,7 @@ body {
 }
 
 /* NavBar */
+
 nav {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
     position: fixed !important;
@@ -97,14 +103,13 @@ nav {
     backdrop-filter: blur(8px);
     background-color: rgba(var(--color-1), 0.2);
     z-index: 100;
-    /* padding: 0 1rem; */
 }
 
 .navbar-brand>img {
     background-color: rgb(255, 255, 255);
     border-radius: 100%;
     padding: 0.1rem;
-    height:3.7rem;
+    height: 3.7rem;
 }
 
 .nav-item {
@@ -193,15 +198,16 @@ nav.scrolled .nav-item {
         display: block !important;
         font-size: 1.5rem !important;
     }
-    
+
 }
+
 @media (min-width:523px) and (max-width:767px) {
     #titulo-navbar {
         font-size: 1.75rem !important;
     }
 }
 
-#titulo-navbar{
+#titulo-navbar {
     font-size: 2.5rem !important;
 }
 
@@ -563,6 +569,7 @@ header {
 }
 
 @media (max-width: 767px) {
+
     .liRevision i,
     .liMonitoreo i,
     .liMantenimiento i,
@@ -762,6 +769,7 @@ textarea {
     padding-top: 15px;
     font-size: 13px;
 }
+
 @media (min-width:640px) {
     .pFooter {
         width: 100% !important;
