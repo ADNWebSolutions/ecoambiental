@@ -8,10 +8,10 @@ import telefonoFooter from '../assets/img/footer/telefono-footer.png'
 function Footer() {
     return (
         <>
+            {/* 
             <footer>
                 <div id="contacto" className="flex md:flex-row-reverse flex-col lg:flex-row-reverse">
-                    {/* <!--Estilo https://www.neoplagas.cl/
-            Links a Sectores de la página || Contacto formulario--> */}
+            
                     <div className="container-footer-1">
                         <form className="contact-form">
                             <h2 className="ash titulo-size2">CONTACTANOS!</h2>
@@ -41,12 +41,13 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                {/* <!--Estilo https://www.neoplagas.cl/
-            Links a Sectores de la página || Contacto formulario--> */}
+                
             </footer>
             <div className="container-footer-3 flex px-sm-6 ">
-                <p className="pFooter fs-6 w-75  mb-0 text-start text-sm-center ">Sitio web diseñado y desarrollado por ADN Web Solutions</p>
+                <p className="mb-0 text-start text-sm-center ">Sitio web diseñado y desarrollado por ADN Web Solutions</p>
             </div>
+            
+             */}
         </>
     )
 }
