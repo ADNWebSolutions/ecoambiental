@@ -225,7 +225,7 @@ nav.scrolled .nav-item {
   max-width: 95%;
 }
 
-.home .card-head {
+.card-head {
   position: relative;
   height: 80vh;
   width: 25vw;
@@ -508,7 +508,7 @@ nav.scrolled .nav-item {
   grid-area: liRevision;
   display: flex;
   align-items: center;
-  justify-content: start;
+  /* justify-content: start; */ 
 }
 
 .liMonitoreo {
@@ -522,21 +522,21 @@ nav.scrolled .nav-item {
   grid-area: liMantenimiento;
   display: flex;
   align-items: center;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 .liSeguimiento {
   grid-area: liSeguimiento;
   display: flex;
   align-items: center;
-  justify-content: end;
+  /* justify-content: end; */
 }
 
 .liCapacitacion {
   grid-area: liCapacitacion;
   display: flex;
   align-items: center;
-  justify-content: start;
+  /* justify-content: start; */
 }
 
 .liRevision p,

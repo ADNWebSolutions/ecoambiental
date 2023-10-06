@@ -4,6 +4,8 @@ import logo from '../assets/img/logo.svg'
 function Navbar() {
     return (
         <nav className="flex flex-wrap items-center content-between py-3 px-4 fixed w-screen text-black glass backdrop-blur">
+            {/* 
+            relative flex flex-wrap items-center content-between py-3 px-4   my-0 py-0 px-2 sm:px-0 */}
             <div className="container mx-auto sm:px-4 justify-center ">
                 <div className="flex justify-between mx-4 ">
                     <a className="pt-1 pb-1 mr-4 text-lg whitespace-nowrap" href="#">
