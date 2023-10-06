@@ -30,7 +30,7 @@ function Navbar () {
           <span className='navbar-toggler-icon'></span>
         </button>
         <div
-          className='collapse navbar-collapse justify-content-center fw-bold'
+          className='collapse basis-full lg:basis-auto lg:flex grow content-center fw-bold'
           id='navbarNav'
         >
           <ul className='navbar-nav fw-bold'>

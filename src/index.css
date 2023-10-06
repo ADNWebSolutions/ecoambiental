@@ -471,7 +471,7 @@ nav.scrolled .nav-item {
 }
 
 .containerCircleBtn {
-  background-image: url('./img/circulo-ecoambiental-rehecho-3.png');
+  background-image: url('./src/assets/img//circulo-ecoambiental-rehecho-3.png');
   background-size: cover;
   aspect-ratio: 4.2/3;
   display: grid;

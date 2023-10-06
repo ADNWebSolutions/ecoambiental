@@ -1,21 +1,21 @@
 @font-face {
     font-family: ashFont;
-    src: url('./img/DCC-Ash.otf');
+    src: url('./src/assets/img//DCC-Ash.otf');
 }
 
 @font-face {
     font-family: catchye;
-    src: url('./img/Catchye.otf');
+    src: url('./src/assets/img//Catchye.otf');
 }
 
 @font-face {
     font-family: cursiveL;
-    src: url('./img/LearningCurve.ttf');
+    src: url('./src/assets/img//LearningCurve.ttf');
 }
 
 @font-face {
     font-family: imprent;
-    src: url('./img/LettersForLearners');
+    src: url('./src/assets/img//LettersForLearners');
 }
 
 * {
@@ -244,15 +244,15 @@ header {
 }
 
 #img1 {
-    background-image: url(./img/photos/header-1.jpg);
+    background-image: url(./src/assets/img//photos/header-1.jpg);
 }
 
 #img2 {
-    background-image: url(./img/photos/header-2.jpg);
+    background-image: url(./src/assets/img//photos/header-2.jpg);
 }
 
 #img3 {
-    background-image: url(./img/photos/header-3.jpg);
+    background-image: url(./src/assets/img//photos/header-3.jpg);
 }
 
 #img1,
@@ -492,7 +492,7 @@ header {
 }
 
 .containerCircleBtn {
-    background-image: url("./img/circulo-ecoambiental-rehecho-3.png");
+    background-image: url("./src/assets/img//circulo-ecoambiental-rehecho-3.png");
     background-size: cover;
     aspect-ratio: 4.2/3;
     display: grid;
