@@ -8,9 +8,9 @@ import telefonoFooter from '../assets/img/footer/telefono-footer.png'
 function Footer () {
   return (
     <>
-      <footer>
+      <footer id='contacto'>
         <div
-          id='contacto'
+          
           className='flex md:flex-row-reverse flex-col lg:flex-row-reverse'
         >
           <div className='container-footer-1'>
